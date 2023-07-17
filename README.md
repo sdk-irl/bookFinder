@@ -9,8 +9,9 @@ I originally wrote this responsive web app in 2019 using class-based components 
 This project is deployed using Vercel.
 
 This is a work in progress, and I have additional features I intend to add to the project:
-- Adding Typescript to ensure type safety
-- Modify to execute the search on return in the input field instead of clicking on the search button or tabbing and using a carriage return
+- Add Typescript to ensure type safety
+- Add tests
+- Modify SearchBar component to execute the search on return in the input field instead of clicking on the search button or tabbing and using a carriage return
 - Add a replacement image when no cover image is returned from the API
 - Truncate the book information when it is too long for a book card
 - Run accessibility checks and adding ARIA where needed
