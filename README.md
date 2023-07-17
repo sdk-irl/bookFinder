@@ -12,7 +12,7 @@ This is a work in progress, and I have additional features I intend to add to th
 - Add Typescript to ensure type safety
 - Add tests
 - Modify SearchBar component to execute the search on return in the input field instead of clicking on the search button or tabbing and using a carriage return
-- Add a replacement image when no cover image is returned from the API, this will fix mobile layout issues
+- Add a replacement image when no cover image is returned from the API; this will fix mobile layout issues
 - Truncate the book information when it is too long for a book card
 - Run accessibility checks and adding ARIA where needed
 - CSS improvements
