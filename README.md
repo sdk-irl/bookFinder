@@ -6,7 +6,7 @@ Book Finder is an app that allows you to search for books from the Google Books 
 
 I originally wrote this responsive web app in 2019 using class-based components and fetch, but I recently rewrote it in React 18 with hooks and functional components using async/await for the API call.
 
-This project is deployed using Vercel.
+This project is deployed using Vercel [https://book-finder-pied.vercel.app/](https://book-finder-pied.vercel.app/).
 
 This is a work in progress, and I have additional features I intend to add to the project:
 - Add Typescript to ensure type safety
