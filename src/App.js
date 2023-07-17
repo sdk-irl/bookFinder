@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import BookCard from './BookCard';
+import SearchBar from './SearchBar';
 
-function App() {
+export default function App() {
+  const [books, setBooks] = useState([]);
+  function updateResults(books) {
+    setBooks(books);
+  } 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='app'>
+      <header className='app-header'>
+        <h1>Book Finder</h1>
       </header>
+      <p className='searchText'>Search for a book by title, author, or subject.</p>
+      <SearchBar
+          update={updateResults}
+      />
+      <div className='bookResults'>
+        {books.map((book, index) => {
+          return <BookCard key={index} bookData={book.volumeInfo}/>
+        })}
+      </div>
     </div>
   );
 }
-
-export default App;

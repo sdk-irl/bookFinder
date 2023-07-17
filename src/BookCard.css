@@ -1,0 +1,41 @@
+/* Card formatting */
+.bookImage {
+    padding: 1em;
+  }
+  
+  .bookCard {
+    margin: .5em;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  
+  .bookInfo {
+    margin: .5em 0 0 0;
+    padding: 0 .3em;
+    flex-wrap: nowrap;
+    text-align: left;
+  }
+  
+  .bookResults {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .authors {
+    padding: .3em 0 .3em 0;
+  }
+  
+  .title {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-style: italic;
+  }
+  
+  .publisher {
+    padding: .3em 0 .3em 0;
+  }

@@ -1,0 +1,11 @@
+.searchBar {
+    width: 50%;
+    height: auto;
+    font-size: x-large;
+}
+.searchBarArea {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

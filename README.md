@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Book Finder is an app that allows you to search for books from the Google Books API. It returns the book cover, title, author, publisher, and a link to more info on the book in the Google Play store.
+
+I originally wrote this responsive web app in 2019 using class-based components and fetch, but I recently rewrote it in React 18 with hooks and functional components using async/await for the API call.
+
+This project is deployed using Vercel.
+
+This is a work in progress, and I have additional features I intend to add to the project:
+- Adding Typescript to ensure type safety
+- Modify to execute the search on return in the input field instead of clicking on the search button or tabbing and using a carriage return
+- Add a replacement image when no cover image is returned from the API
+- Truncate the book information when it is too long for a book card
+- Run accessibility checks and adding ARIA where needed
+- CSS improvements
+
 ## Available Scripts
 
 In the project directory, you can run:
